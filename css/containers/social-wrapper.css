@@ -1,0 +1,8 @@
+.social-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.social-wrapper > .item:not(:last-child) {
+    margin-right: var(--gap-big);
+}

@@ -1,0 +1,6 @@
+.content-short {
+    font-size: 12px;
+    font-weight: bold;
+    color: var(--color-second);
+    text-align: center;
+}
