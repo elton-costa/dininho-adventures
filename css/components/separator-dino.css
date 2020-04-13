@@ -29,8 +29,8 @@
     background-color: var(--color-first);
 }
 
-.separator-dino::before,
-.separator-dino::after {
+.separator-dino.-all::before,
+.separator-dino.-all::after {
     width: calc(50% - var(--half-width-eggs) - var(--gap-very-small));
 }
 
