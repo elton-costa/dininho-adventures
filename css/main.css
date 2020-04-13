@@ -6,6 +6,7 @@
 @import './elements/base.css';
 @import'./elements/titles.css';
 
+@import './components/header-dino.css';
 @import './components/title-dino.css';
 @import './components/subtitle-dino.css';
 @import './components/content-dino.css';
