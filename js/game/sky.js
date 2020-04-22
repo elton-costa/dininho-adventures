@@ -1,8 +1,8 @@
-function $sky(context, screen) {
+function Sky(context, screen) {
     const sky = new Image();
-    sky.src = '../../img/sky.png';
+    sky.src = '../../img/game/sky.png';
 
-    const center = () => (screen.width / 2) - (sky.widht / 2);
+    const center = () => (screen.width / 2) - (sky.width / 2);
 
     const draw = () => {
         sky.addEventListener('load', () => {

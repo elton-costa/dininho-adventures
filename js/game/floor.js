@@ -1,4 +1,4 @@
-function $floor (context, screen) {
+function Floor (context, screen) {
     const floor = new Image();
     floor.src = '../../img/game/floor.png';
 
@@ -10,7 +10,8 @@ function $floor (context, screen) {
     }
 
     return {
-        draw
+        draw,
+        height: floor.height
     }
     
 }

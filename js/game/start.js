@@ -7,15 +7,15 @@
 
     const $canvas = doc.querySelector('#game-dino');
     const context = $canvas.getContext('2d');
-    const floor = new $floor(context, screen);
-    const sky = new $sky(context, screen);
+    const sky = new Sky(context, screen);
+    const floor = new Floor(context, screen);
+    const dininho = new Dininho(context, screen, floor.height);
     
     $canvas.width = screen.width;
     $canvas.height = screen.height;
 
-    context.globalCompositeOperation = 'destination-over';
-
-    sky.draw();
     floor.draw();
+    sky.draw();
+    dininho.draw();
     
 })(window, document);
